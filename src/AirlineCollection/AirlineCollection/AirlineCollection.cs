@@ -25,7 +25,7 @@ public class AirlineCollection : IAirlineCollection
         for (int i = 0; i < Data.Length; i++)
         {
             var values = Data[i];
-            var airline = new ReadOnlyAirlineInfo(values[0], values[1], values[2], values[3], values[4], values[5], values[6]);
+            var airline = new ReadOnlyAirlineInfo(values[0], values[1], values[2], values[3], values[4], values[6], values[5]);
             var hashcode = airline.GetHashCode();
 
             HashDict.Add(airline.Iata2LetterCode, hashcode);
