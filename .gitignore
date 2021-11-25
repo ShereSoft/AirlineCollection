@@ -1,0 +1,10 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/src/AirlineCollection/.vs
+/src/AirlineCollection/AirlineCollection/bin
+/src/AirlineCollection/AirlineCollection/obj
+/src/AirlineCollection/AirlineCollectionTests/bin
+/src/AirlineCollection/AirlineCollectionTests/obj
+/src/AirlineCollection/AirlineCollection/AirlineCollection.xml
