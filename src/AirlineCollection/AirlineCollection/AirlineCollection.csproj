@@ -14,16 +14,10 @@
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <ApplicationIcon />
     <Win32Resource />
-    <PackageReleaseNotes>* Preloaded airline information wtih IATA 2-digit code, ICAO 3-digit code, and names.
-* Airline code lookup and normalization
-* Convenient static data collection with methods
-* Fully customizable instance data collection (to add new data and to remove old data)
-* IEnumerable implementation (can be used with LINQ)
-* DI-friendly interface
-* Unit Tested
-
+    <PackageReleaseNotes>* Added more confirmed airlines
+* Passed all unit tests (unchanged)
 </PackageReleaseNotes>
-    <Version>1.0.0</Version>
+    <Version>1.1.0</Version>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
