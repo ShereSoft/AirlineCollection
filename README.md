@@ -17,6 +17,17 @@ Provides convenient access to airline info including 2-letter codes, 3-letter co
 * No external calls
 <br />
 
+Name|Format|Description|Example|Notes|
+----|------|-----------|-------|-----|
+Iata2LetterCode|Alphanumeric(2)|IATA 2-Letter Code|"AA"|Commonly used for flight numbers; Can be recycled from a defunct airline|
+Icao3LetterCode|Alphanumeric(3)|ICAO 3-Letter Code|"AAL"|Occasionally used for flight numbers|
+Prefix|Numeric(3)|IATA-assigned air waybill prefix|"001"||
+IataName|(string)|Name registered at IATA|"American Airlines Inc."|Not recommended for general use|
+IcaoName|(string)|Name registered at ICAO|"American Airlines"|Not recommended for general use|
+CallSign|alphanumeric|Identification of an aircraft in air-ground communications|"American"||
+Name|(string)|General name|"American Airlines"|The most commonly used name|
+
+<br />
 
 ## STATIC MEMBERS
 Read-only data collection 
